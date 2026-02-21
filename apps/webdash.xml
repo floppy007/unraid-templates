@@ -25,6 +25,6 @@
   <Config Name="Host IP" Target="WEBDASH_HOST_IP" Default="" Description="Host IP for container URLs. Leave empty for auto-detect." Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="Hostname" Target="WEBDASH_HOSTNAME" Default="" Description="Display name in dashboard (default: system hostname)" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="Scan Directory" Target="WEBDASH_SCAN_DIR" Default="" Description="Additional directory to scan for web apps" Type="Variable" Display="advanced" Required="false" Mask="false"/>
-  <Config Name="App Data" Target="/var/www/html/.dashboard" Default="/mnt/user/appdata/webdash" Description="Persistent config and data" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/webdash</Config>
+  <Config Name="App Data" Target="/var/www/html/.dashboard" Default="/mnt/data/appdata/webdash" Description="Persistent config and data" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/data/appdata/webdash</Config>
   <Config Name="Docker Socket" Target="/var/run/docker.sock" Default="/var/run/docker.sock" Description="Docker socket for container discovery (read-only)" Type="Path" Display="advanced" Required="true" Mask="false">/var/run/docker.sock</Config>
 </Container>
