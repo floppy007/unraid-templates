@@ -11,7 +11,7 @@
   <Project>https://github.com/floppy007/webdash</Project>
   <Overview>Lightweight, self-hosted server dashboard. Discovers Docker containers automatically, shows live status, and provides a clean start page for all your web apps and services.</Overview>
   <Category>Tools:Utilities Network:Management</Category>
-  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <WebUI>http://[IP]:[PORT:80]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/floppy007/unraid-templates/master/apps/webdash.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/floppy007/unraid-templates/master/images/webdash.png</Icon>
   <ExtraParams/>
